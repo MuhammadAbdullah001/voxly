@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../dk/.idea/dk.iml" filepath="$PROJECT_DIR$/../dk/.idea/dk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../ionic/dkapp4/.idea/dkapp4.iml" filepath="$PROJECT_DIR$/../../../ionic/dkapp4/.idea/dkapp4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../souchaj/.idea/fert_dashboard.iml" filepath="$PROJECT_DIR$/../souchaj/.idea/fert_dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/voxly.iml" filepath="$PROJECT_DIR$/.idea/voxly.iml" />
+    </modules>
+  </component>
+</project>

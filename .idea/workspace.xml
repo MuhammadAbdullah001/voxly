@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c3e3153-27aa-4313-a04d-ab45f1a7f6c0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../dk/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../souchaj/application/views/back/expense/direct_expense_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/ionic.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/ionic.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/icon/drawable-hdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/icon/drawable-hdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/icon/drawable-ldpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/icon/drawable-ldpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/icon/drawable-mdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/icon/drawable-mdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/icon/drawable-xhdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/icon/drawable-xhdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/icon/drawable-xxhdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/icon/drawable-xxhdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/icon/drawable-xxxhdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/icon/drawable-xxxhdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-land-hdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-land-hdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-land-ldpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-land-ldpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-land-mdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-land-mdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-land-xhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-land-xhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-land-xxhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-land-xxhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-land-xxxhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-port-hdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-port-hdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-port-ldpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-port-ldpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-port-mdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-port-mdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-port-xhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-port-xhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-port-xxhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-port-xxhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-port-xxxhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/xml/network_security_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/android/xml/network_security_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-1024.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-1024.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-20@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-20@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-24@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-24@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-27.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-27.5@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-29.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-29@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-29@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-40@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-44@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-44@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-50@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-50@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-60.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-60@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-72.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-72@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-72@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-76.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-76@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-83.5@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-86@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-86@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-98@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-98@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-small@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-small@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-small@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon-small@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/icon/icon@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-2436h.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-2436h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-568h@2x~iphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-568h@2x~iphone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-667h.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-667h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-736h.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-736h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Landscape-2436h.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Landscape-2436h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Landscape-736h.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Landscape-736h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Landscape@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Landscape@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Landscape@~ipadpro.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Landscape@~ipadpro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Landscape~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Landscape~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Portrait@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Portrait@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Portrait@~ipadpro.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Portrait@~ipadpro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Portrait~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default-Portrait~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default@2x~iphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default@2x~iphone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default@2x~universal~anyany.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default@2x~universal~anyany.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default~iphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/ios/splash/Default~iphone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/resources/splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/app/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/app/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/app/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/app/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/app/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/app/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/icon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/icon/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/No-Image-Found-400x264.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/No-Image-Found-400x264.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/back.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/back.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/booking.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/booking.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/booking2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/booking2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/booking3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/booking3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/calendar1197.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/calendar1197.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/calendar1197@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/calendar1197@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/calendar1197@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/calendar1197@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/check@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/check@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/check@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/check@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/credits.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/credits.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/credits@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/credits@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/credits@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/credits@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/giftOutline.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/giftOutline.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/giftOutline@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/giftOutline@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/giftOutline@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/giftOutline@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group18.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group18@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group18@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group18@3x-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group18@3x-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group18@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group18@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group7.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group7@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group7@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group7@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group7@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group8.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group8@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group8@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group8@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group8@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group9.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group9@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group9@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group9@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group9@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/group@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/home.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/home2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/home2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/home3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/home3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/icon2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/icon2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/icon2@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/icon2@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/icon2@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/icon2@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/icon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/icon@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/icon@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/icon@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/iconColor.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/iconColor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/iconColor@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/iconColor@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/iconColor@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/iconColor@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/infoOutline.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/infoOutline.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/infoOutline@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/infoOutline@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/infoOutline@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/infoOutline@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/linkedin2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/linkedin2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/linkedin2@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/linkedin2@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/linkedin2@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/linkedin2@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/mail@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/mail@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/mail@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/mail@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/materialIconCloudUpload.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/materialIconCloudUpload.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/materialIconCloudUpload@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/materialIconCloudUpload@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/materialIconCloudUpload@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/materialIconCloudUpload@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/money.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/money.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/money@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/money@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/money@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/money@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/peopleOutline.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/peopleOutline.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/peopleOutline@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/peopleOutline@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/peopleOutline@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/peopleOutline@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/pinOutline.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/pinOutline.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/pinOutline@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/pinOutline@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/pinOutline@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/pinOutline@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/printer.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/printer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/printer@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/printer@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/printer@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/printer@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/printing.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/printing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/printing2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/printing2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/printing3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/printing3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/search@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/search@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/search@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/search@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/security.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/security.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/security@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/security@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/security@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/security@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/settings.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/settings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/settings@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/settings@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/settings@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/settings@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/stats1367.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/stats1367.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/stats1367@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/stats1367@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/stats1367@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/stats1367@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/support.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/support.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/support2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/support2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/support3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/support3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/team.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/team.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/team2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/team2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/team3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/team3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/visitor.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/visitor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/visitor2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/visitor2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/visitor3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/assets/imgs/visitor3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-booking/add-booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-booking/add-booking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-booking/add-booking.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-booking/add-booking.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-booking/add-booking.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-booking/add-booking.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-booking/add-booking.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-booking/add-booking.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-visitor/add-visitor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-visitor/add-visitor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-visitor/add-visitor.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-visitor/add-visitor.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-visitor/add-visitor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-visitor/add-visitor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-visitor/add-visitor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/add-visitor/add-visitor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/billing/billing.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/billing/billing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/billing/billing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/billing/billing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/billing/billing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/billing/billing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/billing/billing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/billing/billing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/booking-details/booking-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/booking-details/booking-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/booking-details/booking-details.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/booking-details/booking-details.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/booking-details/booking-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/booking-details/booking-details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/booking-details/booking-details.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/booking-details/booking-details.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/dash-board/dash-board.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/dash-board/dash-board.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/dash-board/dash-board.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/dash-board/dash-board.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/dash-board/dash-board.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/dash-board/dash-board.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/dash-board/dash-board.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/dash-board/dash-board.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/event-details/event-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/event-details/event-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/event-details/event-details.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/event-details/event-details.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/event-details/event-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/event-details/event-details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/event-details/event-details.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/event-details/event-details.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/events/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/events/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/events/events.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/events/events.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/events/events.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/events/events.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/events/events.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/events/events.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/frgt-pwrd/frgt-pwrd.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/frgt-pwrd/frgt-pwrd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/frgt-pwrd/frgt-pwrd.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/frgt-pwrd/frgt-pwrd.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/frgt-pwrd/frgt-pwrd.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/frgt-pwrd/frgt-pwrd.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/frgt-pwrd/frgt-pwrd.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/frgt-pwrd/frgt-pwrd.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/home/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/home/home.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/home/home.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/home/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/home/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/home/home.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/invoice-details/invoice-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/invoice-details/invoice-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/invoice-details/invoice-details.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/invoice-details/invoice-details.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/invoice-details/invoice-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/invoice-details/invoice-details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/invoice-details/invoice-details.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/invoice-details/invoice-details.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/login/login.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/login/login.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/login/login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/login/login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/login/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/login/login.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/member-profile/member-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/member-profile/member-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/member-profile/member-profile.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/member-profile/member-profile.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/member-profile/member-profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/member-profile/member-profile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/member-profile/member-profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/member-profile/member-profile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/my-bookings/my-bookings.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/my-bookings/my-bookings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/my-bookings/my-bookings.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/my-bookings/my-bookings.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/my-bookings/my-bookings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/my-bookings/my-bookings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/my-bookings/my-bookings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/my-bookings/my-bookings.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/printing/printing.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/printing/printing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/printing/printing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/printing/printing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/printing/printing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/printing/printing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/printing/printing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/printing/printing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/privacy/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/privacy/privacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/privacy/privacy.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/privacy/privacy.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/privacy/privacy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/privacy/privacy.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/privacy/privacy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/privacy/privacy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/profile-settings/profile-settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/profile-settings/profile-settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/profile-settings/profile-settings.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/profile-settings/profile-settings.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/profile-settings/profile-settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/profile-settings/profile-settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/profile-settings/profile-settings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/profile-settings/profile-settings.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/signup/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/signup/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/signup/signup.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/signup/signup.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/signup/signup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/signup/signup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/signup/signup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/signup/signup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support-ticket/support-ticket.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support-ticket/support-ticket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support-ticket/support-ticket.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support-ticket/support-ticket.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support-ticket/support-ticket.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support-ticket/support-ticket.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support-ticket/support-ticket.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support-ticket/support-ticket.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support/support.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support/support.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support/support.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support/support.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support/support.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support/support.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/support/support.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/tabs/tabs.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/tabs/tabs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/tabs/tabs.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/tabs/tabs.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/tabs/tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/tabs/tabs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/tabs/tabs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/tabs/tabs.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/team/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/team/team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/team/team.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/team/team.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/team/team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/team/team.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/team/team.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/team/team.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/ticket-details/ticket-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/ticket-details/ticket-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/ticket-details/ticket-details.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/ticket-details/ticket-details.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/ticket-details/ticket-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/ticket-details/ticket-details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/ticket-details/ticket-details.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/ticket-details/ticket-details.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/transaction-details/transaction-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/transaction-details/transaction-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/transaction-details/transaction-details.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/transaction-details/transaction-details.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/transaction-details/transaction-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/transaction-details/transaction-details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/transaction-details/transaction-details.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/transaction-details/transaction-details.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/update-password/update-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/update-password/update-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/update-password/update-password.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/update-password/update-password.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/update-password/update-password.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/update-password/update-password.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/update-password/update-password.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/update-password/update-password.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/user-profile/user-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/user-profile/user-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/user-profile/user-profile.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/user-profile/user-profile.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/user-profile/user-profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/user-profile/user-profile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/user-profile/user-profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/user-profile/user-profile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor-details/visitor-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor-details/visitor-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor-details/visitor-details.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor-details/visitor-details.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor-details/visitor-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor-details/visitor-details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor-details/visitor-details.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor-details/visitor-details.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor/visitor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor/visitor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor/visitor.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor/visitor.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor/visitor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor/visitor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor/visitor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/pages/visitor/visitor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/providers/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/providers/api/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/src/theme/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/src/theme/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ionic/dkapp4/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ionic/dkapp4/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/app/Console/Commands/calculateBillResidentCron.php" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/app/Console/Commands/calculateBillResidentCron.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/app/Http/Controllers/Api/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/app/Http/Controllers/Api/ApiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/app/Http/Controllers/BookingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/app/Http/Controllers/BookingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/app/Http/Controllers/DatatableController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/app/Http/Controllers/DatatableController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/database/migrations/2018_09_05_095635_create_announcements_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/database/migrations/2018_09_05_095635_create_announcements_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/resources/assets/js/custom1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/resources/assets/js/custom1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/resources/assets/js/myscripts/Announcements.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/resources/assets/js/myscripts/Announcements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/resources/assets/js/myscripts/adminBookingCalender.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/resources/assets/js/myscripts/adminBookingCalender.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/resources/views/email/invoiceEmail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/resources/views/email/invoiceEmail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/resources/views/layouts/admin/modal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/resources/views/layouts/admin/modal.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/storage/framework/cache/data/44/d1/44d142505dd1a3b497197e2f459d2aec779e9ed6" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/storage/framework/cache/data/44/d1/44d142505dd1a3b497197e2f459d2aec779e9ed6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/storage/framework/cache/data/c2/4f/c24f92750673b2169c8cb7bfbc999cfa8457dc7c" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/storage/framework/cache/data/c2/4f/c24f92750673b2169c8cb7bfbc999cfa8457dc7c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dk/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/../dk/storage/logs/laravel.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/.idea/fert_dashboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/.idea/fert_dashboard.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/controllers/Contracted.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/controllers/Contracted.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/controllers/Expense.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/controllers/Expense.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/controllers/GRN.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/controllers/GRN.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/controllers/Payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/controllers/Payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/controllers/Production.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/controllers/Production.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/controllers/Purchase.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/controllers/Purchase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/controllers/PurchaseOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/controllers/PurchaseOrder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/controllers/Sale.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/controllers/Sale.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/controllers/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/controllers/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/core/MY_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/core/MY_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/helpers/email_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/helpers/email_helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/models/Expense_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/models/Expense_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/models/Sale_History_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/models/Sale_History_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/models/Sale_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/models/Sale_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/attendence_fixed/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/attendence_fixed/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/contracted/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/contracted/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/contracted/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/contracted/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/dashboard/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/dashboard/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/expense/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/expense/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/grn/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/grn/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/grn/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/grn/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/grn/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/grn/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/includes/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/includes/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/includes/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/notifications/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/notifications/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/payment/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/payment/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/production/additional_butterpaper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/production/additional_butterpaper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/production/all_fabrication.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/production/all_fabrication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/production/all_material_issuance.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/production/all_material_issuance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/production/butterpaper_sublet.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/production/butterpaper_sublet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/production/component_material_load.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/production/component_material_load.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/production/cost_sheet_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/production/cost_sheet_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/production/fabrication.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/production/fabrication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/production/fabrication_approval.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/production/fabrication_approval.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/production/jobcards.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/production/jobcards.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/production/material_issuance_approval.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/production/material_issuance_approval.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/production/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/production/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/production/view_time_sheet.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/production/view_time_sheet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/purchase/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/purchase/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/purchase/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/purchase/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/purchase_order/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/purchase_order/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/purchase_order/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/purchase_order/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/sales/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/sales/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/sales/current_history.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/sales/current_history.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/sales/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/sales/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/sales/history_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/sales/history_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/sales/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/sales/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/user/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/user/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/user/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/user/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../souchaj/application/views/back/warehouse/inventory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../souchaj/application/views/back/warehouse/inventory.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../souchaj" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/laravel/helpers" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/vendor/rize/uri-template" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/google/cloud-core" />
+      <path value="$PROJECT_DIR$/vendor/google/crc32" />
+      <path value="$PROJECT_DIR$/vendor/google/cloud-storage" />
+      <path value="$PROJECT_DIR$/vendor/google/auth" />
+      <path value="$PROJECT_DIR$/vendor/kreait/clock" />
+      <path value="$PROJECT_DIR$/vendor/giggsey/libphonenumber-for-php" />
+      <path value="$PROJECT_DIR$/vendor/kreait/firebase-tokens" />
+      <path value="$PROJECT_DIR$/vendor/kreait/firebase-php" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/vendor/giggsey/locale" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/riverline/multipart-parser" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1dGc9yiSV2OlM2HYe6GOXXgb3Hg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///media/usman-m-gld-sld/562A88CA2A88A8971/USMAN/xammp/htdocs/voxly/app/Http/Controllers/Api/ApiController.php" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Console" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Console" />
+      <recent name="$PROJECT_DIR$/../souchaj/application/views/back/purchase" />
+      <recent name="$PROJECT_DIR$/../souchaj/application/views/back/grn" />
+      <recent name="$PROJECT_DIR$/../souchaj/application/views/back/purchase_order" />
+      <recent name="$PROJECT_DIR$/../souchaj/application/views/back/production" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c3e3153-27aa-4313-a04d-ab45f1a7f6c0" name="Default" comment="" />
+      <created>1584188934477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584188934477</updated>
+      <workItem from="1584188942782" duration="12989000" />
+      <workItem from="1584636778613" duration="8000" />
+      <workItem from="1584637188083" duration="5633000" />
+      <workItem from="1584795472728" duration="48736000" />
+      <workItem from="1585301624221" duration="7296000" />
+      <workItem from="1585430322636" duration="1968000" />
+      <workItem from="1587912505290" duration="17522000" />
+      <workItem from="1588098139367" duration="9496000" />
+      <workItem from="1588187418288" duration="26106000" />
+      <workItem from="1588319534378" duration="36956000" />
+      <workItem from="1588442362390" duration="14136000" />
+      <workItem from="1588504226461" duration="18911000" />
+      <workItem from="1588613683059" duration="11109000" />
+      <workItem from="1588710379225" duration="8185000" />
+      <workItem from="1588794985546" duration="29768000" />
+      <workItem from="1589035671571" duration="2530000" />
+      <workItem from="1589049981052" duration="23811000" />
+      <workItem from="1589217847190" duration="32153000" />
+      <workItem from="1589487875877" duration="7769000" />
+      <workItem from="1589545697910" duration="17169000" />
+      <workItem from="1589618754683" duration="35314000" />
+      <workItem from="1589736320467" duration="1448000" />
+      <workItem from="1589746963748" duration="8037000" />
+      <workItem from="1589826851961" duration="8180000" />
+      <workItem from="1589916282404" duration="4845000" />
+      <workItem from="1590004773175" duration="935000" />
+      <workItem from="1590086600221" duration="5334000" />
+      <workItem from="1590264603632" duration="2820000" />
+      <workItem from="1590612699597" duration="6492000" />
+      <workItem from="1590853422981" duration="1887000" />
+      <workItem from="1590966203826" duration="617000" />
+      <workItem from="1591042096871" duration="43133000" />
+      <workItem from="1591206582908" duration="8597000" />
+      <workItem from="1591385874677" duration="15080000" />
+      <workItem from="1591486495471" duration="4971000" />
+      <workItem from="1591529529430" duration="3119000" />
+      <workItem from="1591602863368" duration="2369000" />
+      <workItem from="1591652430266" duration="4942000" />
+      <workItem from="1591732031671" duration="4709000" />
+      <workItem from="1591743096694" duration="3077000" />
+      <workItem from="1591818487314" duration="41750000" />
+      <workItem from="1592054784174" duration="160000" />
+      <workItem from="1592054988959" duration="439000" />
+      <workItem from="1592055469371" duration="695000" />
+      <workItem from="1592073556074" duration="34280000" />
+      <workItem from="1592431847423" duration="408000" />
+      <workItem from="1592432352610" duration="9712000" />
+      <workItem from="1592505679260" duration="50899000" />
+      <workItem from="1592854286494" duration="12000" />
+      <workItem from="1592854361809" duration="3935000" />
+      <workItem from="1592943123149" duration="6180000" />
+      <workItem from="1593258344989" duration="3785000" />
+      <workItem from="1593859461474" duration="33735000" />
+      <workItem from="1593923172302" duration="2747000" />
+      <workItem from="1593954747186" duration="20850000" />
+      <workItem from="1595104069864" duration="12086000" />
+      <workItem from="1595158619847" duration="3067000" />
+      <workItem from="1595190209422" duration="10489000" />
+      <workItem from="1596256329959" duration="21747000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1784" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593868660240">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1784" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.0.1920.1080/0.213.1366.768@1366.0.1920.1080" timestamp="1593868660240" />
+    <state x="2017" y="27" width="1259" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593875996979">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2017" y="27" width="1259" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1366.0.1920.1080/0.213.1366.768@1366.0.1920.1080" timestamp="1593875996979" />
+    <state x="2059" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1593874843743">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2059" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1592741801765" />
+    <state x="2059" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1366.0.1920.1080/0.213.1366.768@1366.0.1920.1080" timestamp="1593874843743" />
+    <state x="1608" y="5" width="1022" height="737" key="SettingsEditor" timestamp="1592432837025">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1592073790428" />
+    <state x="1608" y="5" key="SettingsEditor/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1592432837025" />
+    <state x="1842" y="289" key="com.intellij.ide.util.TipDialog" timestamp="1596256330490">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1592432353926" />
+    <state x="1842" y="289" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1592505697208" />
+    <state x="339" y="226" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1593258357515" />
+    <state x="339" y="419" key="com.intellij.ide.util.TipDialog/1366.0.1920.1080/0.213.1366.768@0.213.1366.768" timestamp="1592943123916" />
+    <state x="1842" y="289" key="com.intellij.ide.util.TipDialog/1366.0.1920.1080/0.213.1366.768@1366.0.1920.1080" timestamp="1596256330490" />
+    <state x="1831" y="49" width="1071" height="909" key="find.popup" timestamp="1595112071184">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1890" y="85" width="1071" height="909" key="find.popup/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1592740833884" />
+    <state x="1831" y="49" width="1071" height="909" key="find.popup/1366.0.1920.1080/0.213.1366.768@1366.0.1920.1080" timestamp="1595112071184" />
+    <state x="1990" y="252" key="run.anything.popup" timestamp="1596278730210">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1990" y="252" key="run.anything.popup/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1592771076188" />
+    <state x="1990" y="252" key="run.anything.popup/1366.0.1920.1080/0.213.1366.768@1366.0.1920.1080" timestamp="1596278730210" />
+  </component>
+</project>

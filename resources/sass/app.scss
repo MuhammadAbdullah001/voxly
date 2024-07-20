@@ -1,0 +1,15 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Custom styling 1 *usman using this file
+@import 'custom1';
+
+.custom-dk-bg-color {
+  background: #f8b914;
+}
